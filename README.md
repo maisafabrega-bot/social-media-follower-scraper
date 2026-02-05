@@ -4,7 +4,7 @@ Script em Python para extrair o número de seguidores do Instagram, YouTube, Fac
 
 ## Funcionalidades
 - Abre o navegador Edge com perfil de usuário real (cookies salvos)
-- Coleta seguidores de páginas públicas
+- Coleta seguidores de páginas públicas (benchmarking e web scraping)
 - Salva histórico em planilha Excel
 - Tratamento de erros para scraping no LinkedIn
 
@@ -22,3 +22,4 @@ Para que o script rode diariamente, recomendo o uso do Agendador de Tarefas do W
    - Programa: Caminho do arquivo em Python (ex: "C:\Python39\python.exe")
    - Adicionar argumentos: O caminho completo do script (ex: "C:\Projetos\bot_redes_sociais.py")
 5. Na aba Condições, marque "Despertar o computador"
+
