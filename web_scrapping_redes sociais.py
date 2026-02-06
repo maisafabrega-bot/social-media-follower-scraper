@@ -112,7 +112,7 @@ def pegar_dados_completos():
 
     try:
         print("Coletando: LinkedIn (Dado Detalhado)...")
-        driver.get("https://www.linkedin.com/company/seu_perfil/")
+        driver.get("https://www.linkedin.com/company/seu_perfil/posts/?feedView=all")
         time.sleep(7) 
         
         soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -151,5 +151,6 @@ if __name__ == "__main__":
     df = df[[c for c in colunas_ordenadas if c in df.columns]]
 
     df.to_excel(NOME_ARQUIVO, index=False)
+
 
     print(f" Planilha '{NOME_ARQUIVO}' atualizada.")
