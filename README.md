@@ -1,25 +1,25 @@
-# Automação de Monitoramento de Redes Sociais
+Social Media Monitoring Automation
 
-Script em Python para extrair o número de seguidores do Instagram, YouTube, Facebook e LinkedIn usando Selenium e BeautifulSoup.
+Python script to extract follower counts from Instagram, YouTube, Facebook, and LinkedIn using Selenium and BeautifulSoup.
+WARNING: The code has not been updated since it was published; the websites may have changed, and the code may no longer work with them.
 
-## Funcionalidades
-- Abre o navegador Edge com perfil de usuário real (cookies salvos)
-- Coleta seguidores de páginas públicas (benchmarking e web scraping)
-- Salva histórico em planilha Excel
-- Tratamento de erros para scraping no LinkedIn
+Features
+Opens the Edge browser with a real user profile (saved cookies)
+Collects follower counts from public pages (benchmarking and web scraping)
+Saves the history to an Excel spreadsheet
+Error handling for LinkedIn scraping
+How to Use
+Install the dependencies: "pip install -r requirements.txt"
+Configure the folder paths in the script
+Run the ".py" file
+How to Automate on Windows
 
-## Como usar
-1. Instale as dependências: "pip install -r requirements.txt"
-2. Configure os caminhos das pastas no script
-3. Execute o arquivo ".py"
-   
-##  Como Automatizar no Windows
-Para que o script rode diariamente, recomendo o uso do Agendador de Tarefas do Windows
-1. Abra o Agendador de Tarefas e clique em "Criar Tarefa"
-2. Na aba Geral marque "Executar com privilégios mais altos"
-3. Na aba Disparadores defina o horário 
-4. Na aba Ações configure:
-   - Programa: Caminho do arquivo em Python (ex: "C:\Python39\python.exe")
-   - Adicionar argumentos: O caminho completo do script (ex: "C:\Projetos\bot_redes_sociais.py")
-5. Na aba Condições, marque "Despertar o computador"
+To run the script daily, I recommend using Windows Task Scheduler.
 
+Open Task Scheduler and click "Create Task"
+In the General tab, check "Run with highest privileges"
+In the Triggers tab, set the time
+In the Actions tab, configure:
+Program: Path to the Python executable (e.g., "C:\Python39\python.exe")
+Add arguments: The full path to the script (e.g., "C:\Projetos\bot_redes_sociais.py")
+In the Conditions tab, check "Wake the computer to run this task"
